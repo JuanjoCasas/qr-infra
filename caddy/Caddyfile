@@ -1,4 +1,4 @@
-qr.jjdev.ar {
+go.jjdev.ar {
   encode gzip zstd
 
   # Reverse proxy a FastAPI
