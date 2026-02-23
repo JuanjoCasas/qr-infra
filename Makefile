@@ -1,4 +1,4 @@
-ENV_FILE=../env/.env.prod
+ENV_FILE=env/.env.prod
 COMPOSE=docker compose -f compose/docker-compose.prod.yml --env-file $(ENV_FILE)
 
 up:
