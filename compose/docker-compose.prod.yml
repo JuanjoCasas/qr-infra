@@ -32,7 +32,7 @@ services:
       retries: 10
 
   api:
-    image: ghcr.io/juanjose/qr-api:latest
+    image: ghcr.io/juanjocasas/qr-api:latest
     # pull_policy: always  # si tu compose lo soporta
     container_name: qr_api
     restart: unless-stopped
